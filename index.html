@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amigo Invisible Tinder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="start-screen">
+        <button id="startButton">Iniciar búsqueda de Tinder</button>
+    </div>
+    <div class="profile-card hidden">
+        <img id="profileImg" src="" alt="Profile">
+        <h2 id="profileName"></h2>
+        <p id="profileDesc"></p>
+        <div class="buttons">
+            <button class="dislike">&#10060;</button>
+            <button class="like">&#10084;</button>
+        </div>
+    </div>
+    <div class="end-screen hidden">
+        <p>Ya no hay más perfiles que mostrar</p>
+        <button id="reloadButton">Recarga la página</button>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
